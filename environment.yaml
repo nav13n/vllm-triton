@@ -1,0 +1,14 @@
+name: vllm-triton
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - rich=13.*
+  - pre-commit=3.*
+  - pytest=7.*
+  - pip>=23
+  - pip:
+    - -r requirements.txt

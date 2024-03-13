@@ -1,0 +1,5 @@
+{
+    "model":"TheBloke/Mixtral-8x7B-Instruct-v0.1-AWQ",
+    "disable_log_requests": "true",
+    "quantization": "awq"
+}
